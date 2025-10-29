@@ -122,7 +122,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                     color: Colors.amber,
                                   ),
                                   onRatingUpdate: (rating) {
-                                    print(rating);
+                                    debugPrint(rating.toString());
                                   },
                                 ),
                                 const SizedBox(

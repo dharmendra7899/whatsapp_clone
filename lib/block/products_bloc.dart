@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 
 import '../models/productModelResponse.dart';
-import '../repo/produc_repo.dart';
+import '../repo/product_repo.dart';
 
 part 'products_event.dart';
 part 'products_state.dart';

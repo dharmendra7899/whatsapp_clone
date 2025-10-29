@@ -8,13 +8,13 @@ class SingleCallWidget extends StatelessWidget {
   final String? callType;
 
   const SingleCallWidget({
-    Key? key,
+    super.key,
     this.chatMessage,
     this.chatTitle,
     this.callStatus,
     this.imageUrl,
     this.callType,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

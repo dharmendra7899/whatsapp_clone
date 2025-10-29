@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 
 class SingleChatWidget extends StatelessWidget {
@@ -7,12 +9,12 @@ class SingleChatWidget extends StatelessWidget {
   final String? imageUrl;
 
   const SingleChatWidget({
-    Key? key,
+    super.key,
     this.chatMessage,
     this.chatTitle,
     this.seenStatusColor,
     this.imageUrl,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

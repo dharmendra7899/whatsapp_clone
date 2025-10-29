@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kkkk/screen/singleStatus.dart';
 
 class StatusTab extends StatelessWidget {
-  const StatusTab({Key? key}) : super(key: key);
+  const StatusTab({super.key});
 
   @override
   Widget build(BuildContext context) {

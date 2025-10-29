@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:kkkk/screen/chatTab.dart';
 import 'package:kkkk/screen/statusTab.dart';
@@ -65,17 +66,17 @@ class WhatsAppClone extends StatelessWidget {
                 Tab(
                   child: Text('CHATS',
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w600)),
+                        fontWeight: FontWeight.w600)),
                 ),
                 Tab(
                   child: Text('STATUS',
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w600)),
+                           fontWeight: FontWeight.w600)),
                 ),
                 Tab(
                   child: Text('CALLS',
                       style: TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.w600)),
+                          fontWeight: FontWeight.w600)),
                 ),
               ],
               labelColor: Colors.white,

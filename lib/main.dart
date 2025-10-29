@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kkkk/block/products_bloc.dart';
-import 'package:kkkk/repo/produc_repo.dart';
+import 'package:kkkk/repo/product_repo.dart';
 import 'package:kkkk/screen/homeScreen.dart';
 
 void main() {
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
-          appBarTheme: const AppBarTheme(color: Color(0xff128C7E)),
+          appBarTheme: const AppBarTheme(backgroundColor: Color(0xff128C7E)),
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
           useMaterial3: true,
         ),

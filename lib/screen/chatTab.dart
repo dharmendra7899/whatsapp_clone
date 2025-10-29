@@ -4,9 +4,9 @@ import 'package:kkkk/screen/singleChat.dart';
 class ChatTab extends StatelessWidget {
   ChatTab({super.key});
 
-  List chatList = [
+ final List chatList = [
     [
-      "It\'s me",
+      "It's me",
       "Ok Kal milte hai",
       Colors.blue,
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDXCC-UB67rk0HtbmrDvVsIGvnPfTAMc_tSg&usqp=CAU'
@@ -19,7 +19,7 @@ class ChatTab extends StatelessWidget {
     ],
     [
       "Queen",
-      "Did you check Queen\'s latest post?",
+      "Did you check Queen's latest post?",
       Colors.grey,
       'https://static-koimoi.akamaized.net/wp-content/new-galleries/2020/09/maisie-williams-aka-arya-stark-of-game-of-thrones-someone-told-me-in-season-three-that-i-was-going-to-kill-the-night-king001.jpg'
     ],
@@ -31,7 +31,7 @@ class ChatTab extends StatelessWidget {
     ],
     [
       "Alok Kumar",
-      "Did you check Maisie\'s latest post?",
+      "Did you check Maisie's latest post?",
       Colors.grey,
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDXCC-UB67rk0HtbmrDvVsIGvnPfTAMc_tSg&usqp=CAU'
     ],

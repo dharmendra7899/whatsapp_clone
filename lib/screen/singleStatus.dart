@@ -6,11 +6,11 @@ class SingleStatusItem extends StatelessWidget {
   final String? statusImage;
 
   const SingleStatusItem({
-    Key? key,
+    super.key,
     this.statusTitle,
     this.statusTime,
     this.statusImage,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -1,8 +1,10 @@
+
+
 import 'package:flutter/material.dart';
-import 'package:kkkk/screen/sinlgeCall.dart';
+import 'package:kkkk/screen/singleCall.dart';
 
 class CallTab extends StatelessWidget {
-  const CallTab({Key? key}) : super(key: key);
+  const CallTab({super.key});
 
   @override
   Widget build(BuildContext context) {
